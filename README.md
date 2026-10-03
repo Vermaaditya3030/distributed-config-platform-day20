@@ -32,6 +32,6 @@ git init
 git add .
 git commit -m "Day 20 distributed config platform"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/distributed-config-platform-day20.git
+git remote add origin https://github.com/Vermaaditya3030/distributed-config-platform-day20.git
 git push -u origin main
 ```
