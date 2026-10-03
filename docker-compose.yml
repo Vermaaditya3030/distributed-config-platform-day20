@@ -1,0 +1,16 @@
+services:
+  config-server:
+    build: ./config-server
+    ports: ["8888:8888"]
+  order-service:
+    build: ./order-service
+    ports: ["8081:8081"]
+    environment:
+      SERVER_PORT: 8081
+    depends_on: [config-server]
+  payment-service:
+    build: ./payment-service
+    ports: ["8082:8082"]
+    environment:
+      SERVER_PORT: 8082
+    depends_on: [config-server]

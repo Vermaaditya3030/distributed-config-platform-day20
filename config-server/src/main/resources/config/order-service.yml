@@ -1,0 +1,4 @@
+app:
+  message: "Order service configuration loaded from Config Server"
+  currency: "INR"
+  max-items: 20

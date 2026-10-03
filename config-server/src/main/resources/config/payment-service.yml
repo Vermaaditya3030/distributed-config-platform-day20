@@ -1,0 +1,4 @@
+app:
+  message: "Payment service configuration loaded from Config Server"
+  provider: "demo-provider"
+  timeout-ms: 3000
